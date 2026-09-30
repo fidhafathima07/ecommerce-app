@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Fidha",
+      "email": "fidha@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 50000,
+      "category": "Electronics",
+      "stock": 5,
+      "description": "Good laptop for study and work."
+    },
+    {
+      "id": "2",
+      "name": "Phone",
+      "price": 20000,
+      "category": "Electronics",
+      "stock": 10,
+      "description": "Good smartphone."
+    },
+    {
+      "id": "3",
+      "name": "Shoes",
+      "price": 1500,
+      "category": "Fashion",
+      "stock": 8,
+      "description": "Comfortable shoes."
+    },
+    {
+      "id": "4",
+      "name": "Bag",
+      "price": 1000,
+      "category": "Fashion",
+      "stock": 6,
+      "description": "Simple daily bag."
+    },
+    {
+      "id": "5",
+      "name": "Watch",
+      "price": 3000,
+      "category": "Fashion",
+      "stock": 4,
+      "description": "Simple stylish watch."
+    },
+    {
+      "id": "6",
+      "name": "Headphone",
+      "price": 2500,
+      "category": "Electronics",
+      "stock": 7,
+      "description": "Wireless headphone."
+    }
+  ],
+  "orders": [
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "1",
+          "name": "Laptop",
+          "price": 50000,
+          "category": "Electronics",
+          "stock": 5,
+          "description": "Good laptop for study and work.",
+          "quantity": 3
+        },
+        {
+          "id": "4",
+          "name": "Bag",
+          "price": 1000,
+          "category": "Fashion",
+          "stock": 6,
+          "description": "Simple daily bag.",
+          "quantity": 6
+        }
+      ],
+      "address": "yyh",
+      "total": 156000,
+      "date": "9/30/2026, 6:55:16 PM",
+      "id": "Xb6geQyyaTI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
